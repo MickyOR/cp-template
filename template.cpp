@@ -24,10 +24,10 @@ const int INF = 1234567890;
 
 int main()
 {
-    std::ios::sync_with_stdio(false); cin.tie(0);
-    //freopen("","r",stdin);
-    //freopen("","w",stdout);
-    
-    return 0;
+  std::ios::sync_with_stdio(false); cin.tie(0);
+  //freopen("","r",stdin);
+  //freopen("","w",stdout);
+  
+  return 0;
 }
 // Dinosaurs are cool!
