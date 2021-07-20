@@ -1,4 +1,7 @@
 #include <bits/stdc++.h>
+//#include <ext/pb_ds/assoc_container.hpp>
+//#include <ext/pb_ds/tree_policy.hpp>
+//#include <bits/extc++.h>
 typedef long long       ll;
 #define PI                acos(-1)
 #define pb                push_back
@@ -15,12 +18,15 @@ typedef long long       ll;
 int faster_in(){int r=0,c;for(c=getchar();c<=32;c=getchar());if(c=='-') return -faster_in();for(;c>32;r=(r<<1)+(r<<3)+c-'0',c=getchar());return r;}
 
 using namespace std;
+//using namespace __gnu_pbds;
 
 typedef pair<int, int>  ii;
 typedef vector<int>     vi;
 typedef vector<ii>      vii;
 typedef vector<ll>      vll;
-const int INF = 1234567890;
+//typedef tree<int,null_type,less<int>,rb_tree_tag,tree_order_statistics_node_update> ordered_set;
+//find_by_order kth largest  order_of_key <
+const int INF = numeric_limits<int>::max() / 4;
 
 int main()
 {
