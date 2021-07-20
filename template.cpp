@@ -26,6 +26,7 @@ typedef vector<ii>      vii;
 typedef vector<ll>      vll;
 //typedef tree<int,null_type,less<int>,rb_tree_tag,tree_order_statistics_node_update> ordered_set;
 //find_by_order kth largest  order_of_key <
+//mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 const int INF = numeric_limits<int>::max() / 4;
 
 int main()
