@@ -19,6 +19,9 @@ int faster_in(){int r=0,c;for(c=getchar();c<=32;c=getchar());if(c=='-') return -
 
 using namespace std;
 //using namespace __gnu_pbds;
+#pragma GCC target ("avx2")
+#pragma GCC optimization ("O3")
+#pragma GCC optimization ("unroll-loops")
 
 typedef pair<int, int>  ii;
 typedef vector<int>     vi;
@@ -31,10 +34,10 @@ const int INF = numeric_limits<int>::max() / 4;
 
 int main()
 {
-  std::ios::sync_with_stdio(false); cin.tie(0);
+  std::ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
   //freopen("","r",stdin);
   //freopen("","w",stdout);
   
   return 0;
 }
-// Dinosaurs are cool!
+// Dinosaurs
