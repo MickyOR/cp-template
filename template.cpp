@@ -3,6 +3,7 @@
 //#include <ext/pb_ds/tree_policy.hpp>
 //#include <bits/extc++.h>
 typedef long long       ll;
+//#define int               long long
 #define PI                acos(-1)
 #define pb                push_back
 #define mp                make_pair
