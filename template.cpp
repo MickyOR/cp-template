@@ -33,7 +33,7 @@ typedef vector<ll>      vll;
 //mt19937 rng(chrono::steady_clock::now().time_since_epoch().count());
 const int INF = numeric_limits<int>::max() / 4;
 
-int main()
+signed main()
 {
   std::ios::sync_with_stdio(false); cin.tie(0);
   //freopen("","r",stdin);
