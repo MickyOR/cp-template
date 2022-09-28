@@ -36,10 +36,10 @@ const int INF = numeric_limits<int>::max() / 4;
 
 signed main()
 {
-  std::ios::sync_with_stdio(false); cin.tie(0);
-  //freopen("","r",stdin);
-  //freopen("","w",stdout);
-  
-  return 0;
+	std::ios::sync_with_stdio(false); cin.tie(0);
+	//freopen("","r",stdin);
+	//freopen("","w",stdout);
+	
+	return 0;
 }
 // Dinosaurs
