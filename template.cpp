@@ -1,3 +1,11 @@
+/*
+               __
+              / _)
+     _.----._/ /
+    /         /
+ __/ (  | (  |
+/__.-'|_|--|_|
+*/
 #include <bits/stdc++.h>
  //#include <ext/pb_ds/assoc_container.hpp>
 //#include <ext/pb_ds/tree_policy.hpp>
@@ -9,8 +17,8 @@ typedef long long ll;
 #define mt make_tuple
 #define all(a) (a).begin(), (a).end()
 #define clr(a, h) memset(a, (h), sizeof(a))
-#define F first
-#define S second
+#define f first
+#define s second
 #define fore(i, b, e) for (int i = (int) b, o_o = e; i < (int) o_o; ++i)
 #define forr(i, b, e) for (int i = (int) b, o_o = e; i < (int) o_o; ++i)
 #define deb(x) cerr << "# " << (#x) << " = " << (x) << endl;
@@ -42,4 +50,3 @@ signed main() {
   
   return 0;
 }
-// Dinosaurs
