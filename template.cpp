@@ -43,10 +43,8 @@ const int INF = numeric_limits < int > ::max() / 4;
 const double PI = acos(-1);
 
 signed main() {
-  std::ios::sync_with_stdio(false);
-  cin.tie(0);
-  //freopen("","r",stdin);
-  //freopen("","w",stdout);
+  std::ios::sync_with_stdio(false); cin.tie(0);
   
   return 0;
 }
+// Sunrise, Parabellum
